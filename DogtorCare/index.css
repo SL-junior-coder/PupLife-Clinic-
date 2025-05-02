@@ -1,0 +1,1380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* nav css class start  */
+.nav-logo {
+  width: 22%;
+  padding: 11px 9px;
+}
+
+nav {
+  background-color: #daac00;
+  padding: 17px 0px;
+}
+
+ul.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
+  margin: 0 auto;
+}
+
+.nav-item a {
+  color: white;
+  padding: 10px 29px;
+  font-size: 19px;
+}
+
+.form-control input[type="text"] {
+  background-color: #fcc302;
+  border: none;
+  color: white;
+}
+
+.form-control {
+  background-color: #fcc302;
+  border: none;
+  color: white;
+}
+
+button.btn.btn-outline-success {
+  border: none;
+  background-color: #00bec9;
+}
+
+/* nac csss class over  */
+
+/* dog img and text css class start  */
+
+.dog-img-text {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.dog-img {
+  width: 45%;
+}
+
+.row.two-part-main-class {
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-dog-text {
+  margin: 0 auto;
+  max-width: 430px;
+}
+
+.heading-dog-text h2 {
+  color: white;
+  font-size: 48px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading-dog-text p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.two-btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-1 a {
+  text-decoration: none;
+  display: block;
+  background-color: #00bec9;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  border: 2px solid #fcc302;
+  border-radius: 6px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-2 a {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 10px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-1 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-2 a:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.dog-img-text {
+  background-color: #fcc302;
+}
+
+/* dog text and img css class over  */
+
+/* dog veterinarian css classs start  */
+
+.dog-veterinarian {
+  overflow: hidden;
+  margin-bottom: 60px;
+  height: 450px;
+}
+
+.veterinarian-heading-dog-text {
+  max-width: 429px;
+  margin-bottom: 20px;
+}
+
+.veterinarian-heading-dog-text h2 {
+  font-size: 40px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.veterinarian-p-text {
+  max-width: 413px;
+  margin-bottom: 20px;
+}
+
+.veterinarian-p-text p {
+  font-size: 22px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal
+}
+
+.service-btn a {
+  color: white;
+  background-color: #0dcaf0;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 128px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.service-btn a:hover {
+  background-color: #fcc302;
+}
+
+.dog-veterinarian-img {
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.dog-veterinarian-img::before {
+  background-color: #daac0094;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  content: "";
+}
+
+.row.two-part-main-class-section-two {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img-box {
+  position: absolute;
+  width: 197px;
+  height: 154px;
+  background-color: #fcc302;
+  top: 249px;
+  z-index: -1;
+  right: 318px;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: white;
+  top: 136px;
+  right: 234px;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.row.card-class {
+  justify-content: center;
+  gap: 36px;
+}
+
+.dog-card-heading {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.dog-card-heading h1 {
+  color: white;
+  font-size: 44px;
+}
+
+.dog-p {
+  max-width: 463px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 63px;
+}
+
+.dog-p p {
+  font-size: 20px;
+  color: white;
+}
+
+.card-main-class {
+  background-color: #fcc302;
+  padding: 18px 0px;
+  margin-bottom: 50px;
+}
+
+.card.col-lg-3 {
+  background-color: #fcc302;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+h5.card-title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p.card-text {
+  font-size: 23px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* dog card css class over  */
+
+/* dog veterian part 2 css class  */
+
+.dog-veterinarian-part-2 {
+  overflow: hidden;
+  margin-bottom: 60px;
+  height: 450px;
+}
+
+.row.two-part-main-class-part-2 {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.veterinarian-heading-dog-text-part-2 {
+  max-width: 429px;
+  margin-bottom: 20px;
+}
+
+.dog-veterinarian-img-part-2 {
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+}
+
+.dog-veterinarian-img-part-2::before {
+  background-color: #daac0094;
+  content: "";
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+  position: absolute;
+}
+
+.img-circle-part-2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: white;
+  top: 155px;
+  left: 175px;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.img-box-part-2 {
+  position: absolute;
+  width: 197px;
+  height: 154px;
+  background-color: #fcc302;
+  top: 289px;
+  z-index: -1;
+  left: 289px;
+}
+
+.veterinarian-heading-dog-text-part-2 h2 {
+  font-size: 40px;
+
+  text-align: right;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.veterinarian-p-text-part-2 {
+  max-width: 339px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
+
+.veterinarian-p-text-part-2 p {
+  font-size: 21px;
+  text-align: right;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.service-btn-part-2 a {
+  color: white;
+  background-color: #0dcaf0;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 128px;
+  text-decoration: none;
+  border-radius: 6px;
+  float: inline-end;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.service-btn-part-2 a:hover {
+  background-color: #fcc302;
+}
+
+.service-btn-part-2 {
+  width: 448px;
+}
+
+.service-btn-part2 {
+  background-color: #00bec9;
+  padding: 11px 25px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 148px;
+  border-radius: 23px;
+  margin: 0 auto;
+  font-size: 21px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.service-btn-part2:hover {
+  background-color: white;
+  color: #00bec9;
+}
+
+.card-h5 {
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.cross {
+  text-decoration: line-through;
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+/* dog veterian part 2 css class over  */
+
+/* vet care card css start  */
+
+.vet-care-icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.vet-care-card-main-class {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.card-img {
+  margin-bottom: 31px;
+}
+
+.card-body p {
+  margin-bottom: 15px;
+}
+
+.card-body h5 {
+  margin-bottom: 10px;
+}
+
+.icon-vet-care a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-vet-care {
+  background-color: #fcc302;
+  padding: 10px 10px;
+  border-radius: 40px;
+}
+
+
+.vet-care-card-heading {
+  max-width: 547px;
+  margin: 0 auto;
+}
+
+.vet-care-card-heading h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Allura", serif;
+
+  font-style: normal;
+}
+
+.vet-care-card-heading p {
+  font-size: 24px;
+  margin-bottom: 66px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* vet care css class over  */
+
+/* happy clients csss classs start  */
+
+.cilent-main-class {
+  background-image: url(img/info.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 184px 0px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+
+.cilent-main-class::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fcc30296;
+  top: 0;
+}
+
+.heart-img {
+  width: 29%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.row.client-main-class {
+  text-align: center;
+}
+
+.heat-text {
+  width: 220px;
+  margin: 0 auto;
+}
+
+.heart-text h4 {
+  color: white;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.heart-text h2 {
+  color: wheat;
+  font-size: 40px;
+  font-family: "Allura", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* happy cilent css class over  */
+
+/* dig ppost css class start  */
+
+.card-link a {
+  text-decoration: none;
+  display: block;
+  width: 130px;
+  font-size: 18px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-link2 a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.col-sm-12 {
+  border: none;
+}
+
+.card-body-posts {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 12px 7px;
+}
+
+.post-main-classs {
+  margin-bottom: 70px;
+}
+
+/* post css class over  */
+
+/* footer css class start  */
+
+footer {
+  background-color: #343434;
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.searct-footer {
+  display: flex;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.searct-footer {
+  margin-bottom: 17px;
+}
+
+.about-class ul {
+  list-style: none;
+}
+
+.services-class ul {
+  list-style: none;
+}
+
+.services-class ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px 0px;
+}
+
+.services-class ul li a:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-position: under;
+}
+
+.services-class h4 {
+  color: white;
+  font-size: 24px;
+}
+
+.about-class ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px 0px;
+}
+
+.about-class ul li a:hover {
+  text-underline-position: under;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.about-class h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.form-heading h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.form-heading p {
+  color: white;
+}
+
+input.footer-form-control {
+  background-color: #fcc302;
+  width: 299px;
+  text-indent: 19px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+button.btn.btn-outline-success {
+  border-radius: 0px 0px 0px 0px;
+  padding: 10px 15px;
+}
+
+/* footer css class over  */
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  
+
+  
+  .dog-veterinarian-part-2 {
+    height: 629px;
+  }
+
+  .img-circle-part-2 {
+    top: 220px;
+    left: 239px;
+
+  }
+
+  .card-link a {
+    width: 148px;
+    font-size: 16px;
+  }
+
+  .img-box-part-2 {
+
+    top: 404px;
+
+    left: 398px;
+  }
+
+  .veterinarian-heading-dog-text-part-2 {
+    max-width: 428px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+
+  
+
+  .img-circle {
+    top: 175px;
+        right: 382px;
+
+  }
+
+  .img-box {
+    top: 356px;
+    right: 515px;
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 339px;
+    /* margin: 0 auto; */
+    margin-bottom: 38px;
+    margin-left: 227px;
+  }
+
+  .service-btn-part-2 {
+    width: 571px;
+  }
+
+  input.footer-form-control {
+
+    width: 389px;
+
+  }
+
+  .dog-veterinarian {
+    height: 528px;
+  }
+
+  h5.card-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .dog-img-for-768-width {
+    display: none;
+  }
+  .post-text-p p{
+    font-size: 19px;
+   }
+}
+
+@media screen and (min-width: 1241px) and (max-width: 1500px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+ 
+
+  .img-box {
+    top: 267px;
+    right: 392px;
+  }
+
+
+  .img-circle {
+    top: 145px;
+    right: 335px;
+
+  }
+
+  .img-box-part-2 {
+    top: 311px;
+    left: 306px;
+  }
+
+  .dog-veterinarian-part-2 {
+    height: 490px;
+  }
+
+  
+  .img-circle-part-2 {
+
+    top: 178px;
+    left: 206px;
+
+  }
+
+  .veterinarian-heading-dog-text-part-2 h2 {
+    font-size: 39px;
+    /* font-weight: bold; */
+    text-align: right;
+  }
+
+  .veterinarian-heading-dog-text-part-2 {
+    max-width: 485px;
+  }
+
+  .service-btn-part-2 {
+    width: 480px;
+  }
+
+  input.footer-form-control {
+    width: 318px;
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 390px;
+  }
+
+  .card-link a {
+    font-size: 14px;
+    width: 134px;
+  }
+
+  h5.card-title {
+    margin-bottom: 21px;
+  }
+
+  .dog-img-for-768-width {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  
+  
+
+  .img-box-part-2 {
+    top: 229px;
+
+    left: 219px;
+  }
+
+  .img-circle-part-2 {
+
+    top: 130px;
+    left: 152px;
+
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 390px;
+  }
+
+  h5.card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .card-link a {
+    font-size: 13px;
+    width: 140px;
+  }
+
+  .vet-care-card-heading h1 {
+    font-size: 46px;
+    font-weight: 500;
+  }
+
+  .service-btn-part-2 {
+    width: 426px;
+  }
+
+  p.card-text {
+    font-size: 15px;
+  }
+
+  
+  .img-circle {
+    width: 80px;
+    height: 80px;
+    
+    top: 102px;
+    right: 241px;
+  
+}
+
+  .img-box {
+    top: 169px;
+    right: 265px;
+  }
+
+  .dog-img {
+    width: 41%;
+    margin-left: 18px;
+  }
+
+  .heading-dog-text h2 {
+    color: white;
+    font-size: 40px;
+  }
+
+ 
+  .btn-1 a {
+    font-size: 14px;
+  }
+
+  .btn-2 a {
+    font-size: 14px;
+  }
+
+  .row.two-part-main-class {
+    padding: 61px 0px;
+  }
+
+  .dog-img-for-768-width {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+
+
+  h5.card-title {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .card-link a {
+
+    font-size: 11px;
+  }
+
+  .card-link2 a {
+
+    font-size: 16px;
+
+  }
+
+  .vet-care-card-heading h1 {
+    font-size: 46px;
+
+  }
+
+  .vet-care-card-heading p {
+    font-size: 20px;
+
+  }
+
+  
+  .img-circle-part-2 {
+    width: 90px;
+    height: 90px;
+    top: 129px;
+    left: 157px;
+
+  }
+
+  .img-box-part-2 {
+
+    top: 228px;
+
+    left: 218px;
+  }
+
+  .img-box {
+
+    top: 188px;
+    right: 276px;
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 404px;
+
+  }
+
+  p.card-text {
+    font-size: 15px;
+  }
+
+  .row.two-part-main-class {
+    height: 400px;
+  }
+
+  .heading-dog-text h2 {
+    font-size: 27px;
+  }
+
+  .text.col-lg-6 {
+    margin-bottom: 92px;
+  }
+
+  .btn-1 a {
+    font-size: 16px;
+  }
+
+  .btn-2 a {
+    font-size: 16px;
+  }
+
+  
+
+  .img-circle {
+    width: 80px;
+    height: 80px;
+    top: 111px;
+    right: 242px;
+}
+
+
+  .service-btn-part-2 {
+    width: 427px;
+  }
+
+  .dog-img-for-768-width {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  .heading-dog-text h2 {
+    font-size: 28px;
+  }
+
+  .btn-1 a {
+    font-size: 16px;
+  }
+
+  .btn-2 a {
+    font-size: 16px;
+  }
+
+  .two-btn {
+    justify-content: center;
+  }
+
+  .dog-img {
+    display: none;
+  }
+
+  .dog-img-for-768-width {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .row.two-part-main-class {
+    height: 550px;
+  }
+
+  .veterinarian-heading-dog-text {
+    max-width: 867px;
+
+  }
+
+  .veterinarian-p-text {
+    max-width: 815px;
+    margin-bottom: 20px;
+  }
+
+  .dog-veterinarian {
+    height: 247px;
+  }
+
+  .dog-veterinarian-part-2 {
+    height: 270px;
+  }
+
+  .card-link a {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .card.col-lg-4.col-md-6.col-sm-12 {
+    margin-bottom: 24px;
+  }
+
+  .footer-icon {
+    justify-content: center;
+
+  }
+
+  .card-img {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .veterinarian-text.col-lg-6 {
+    text-align: center;
+  }
+
+  .service-btn a {
+    margin: 0 auto;
+  }
+
+  .dog-img-part-2.col-lg-6 {
+    display: none;
+  }
+
+  .veterinarian-heading-dog-text-part-2 h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .service-btn-part-2 a {
+    font-size: 16px;
+  }
+
+  .service-btn-part-2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .veterinarian-p-text-part-2 p {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .veterinarian-heading-dog-text-part-2 {
+    max-width: 865px;
+    /* margin-bottom: 20px; */
+  }
+
+  .veterinarian-p-text-part-2 {
+    margin: 0;
+    max-width: 875px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  .text.col-lg-6 {
+    height: 493px;
+  }
+
+  .dog-img-for-768-width {
+    width: 22%;
+    margin: 0 auto;
+  }
+
+  .dog-img {
+    width: 45%;
+    display: none;
+  }
+
+  .heading-dog-text h2 {
+    color: white;
+    font-size: 25px;
+
+  }
+
+  .veterinarian-heading-dog-text {
+    max-width: 488px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .veterinarian-p-text p {
+
+    text-align: center;
+  }
+
+  .veterinarian-heading-dog-text h2 {
+    margin-bottom: 10px;
+  }
+
+  .veterinarian-p-text {
+
+    max-width: 479px;
+
+    margin: 0 auto;
+  }
+
+  .dog-veterinarian {
+
+    height: 271px;
+  }
+
+  .dog-img-part-2.col-lg-6 {
+    display: none;
+  }
+
+  .service-btn a {
+    margin: 0 auto;
+  }
+
+  .veterinarian-heading-dog-text-part-2 {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .veterinarian-heading-dog-text-part-2 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .veterinarian-p-text-part-2 p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .service-btn-part-2 {
+    width: 423px;
+  }
+
+  .dog-veterinarian-part-2 {
+    height: 319px;
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 387px;
+
+  }
+
+  .card-img {
+    width: 38%;
+    margin: 0 auto;
+  }
+
+  .heart-img {
+    width: 21%;
+    margin: 0 auto;
+    margin-bottom: 29px;
+  }
+
+  .col-sm-12 {
+    border: none;
+    margin-bottom: 35px;
+  }
+
+  .cilent-main-class {
+    padding: 48px 0px;
+  }
+
+  .card-link a {
+    width: 166px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  .text.col-lg-6 {
+    height: 434px;
+  }
+
+  .veterinarian-text.col-lg-6 {
+    text-align: center;
+  }
+
+  .veterinarian-p-text {
+    max-width: 535px;
+    margin-bottom: 33px;
+  }
+
+  .service-btn a {
+    margin: 0 auto;
+  }
+
+  .service-btn-part-2 {
+    width: 339px;
+  }
+
+  .veterinarian-heading-dog-text {
+    max-width: 532px;
+    margin-bottom: 20px;
+  }
+
+  .dog-img-part-2.col-lg-6 {
+    display: none;
+  }
+
+  .veterinarian-heading-dog-text-part-2 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .veterinarian-p-text-part-2 {
+    max-width: 588px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+  }
+
+  .veterinarian-p-text-part-2 p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .veterinarian-heading-dog-text-part-2 {
+    max-width: 529px;
+    margin-bottom: 20px;
+  }
+
+  .service-btn-part-2 a {
+    margin: 0 auto;
+  }
+
+  .service-btn-part-2 {
+    width: 331px;
+  }
+
+  .card-img {
+    width: 51%;
+    margin: 0 auto;
+  }
+
+  .card-link a {
+
+    width: 164px;
+
+  }
+
+  .heart-img {
+    width: 21%;
+    margin: 0 auto;
+    margin-bottom: 29px;
+  }
+
+  .col-sm-12 {
+    border: none;
+    margin-bottom: 35px;
+  }
+
+  .cilent-main-class {
+    padding: 48px 0px;
+  }
+
+  .service-btn-part-2 a {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 96% !important;
+  }
+
+  .service-btn-part-2 {
+    width: 293px;
+  }
+
+  .nav-logo {
+    width: 41%;
+    padding: 11px 9px;
+  }
+
+  .service-btn-part-2 a {
+    width: 148px;
+  }
+  .vet-care-card-heading h1{
+    font-size: 46px;
+  }
+  .dog-veterinarian {
+    height: 313px;
+}
+}
